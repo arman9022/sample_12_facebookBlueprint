@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arman Blueprint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  </head>
+  <style>
+      .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+          font-weight: bold;
+            color: green;
+            background-color: transparent;
+        }
+        .nav-link {
+            padding: 0;
+            color: black; 
+            margin: 0;
+        }
+        .accordion-button:not(.collapsed) {
+            color: green;
+            font-weight: bold;
+        }
+  </style>
+  <body>
+    
+
+    <section class="my-5">
+        <div class="container-fluid">
+            <div class="d-flex align-items-start"></div>
+            <div class="row">
+                <div class="col-lg-5 px-5">
+                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                        <div class="accordion" id="accordionExample">
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Decide who you want to reach
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Understand audiences
+                                    </button>
+                                    <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Create a target audience for your business
+                                    </button>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Map the customer journey
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Understand the customer journey
+                                    </button>
+                                    <button class="nav-link" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Map your customers' journey
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Set marketing goals
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Why SMART goals matter
+                                    </button>
+                                    <button class="nav-link" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Set SMART marketing goals
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Select your social media channels
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-seven" type="button" role="tab" aria-controls="v-pills-seven" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Understand the social media landscape
+                                    </button>
+                                    <button class="nav-link" id="v-pills-eight-tab" data-bs-toggle="pill" data-bs-target="#v-pills-eight" type="button" role="tab" aria-controls="v-pills-eight" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Create a social media map for your business
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Tell your business story
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-nine-tab" data-bs-toggle="pill" data-bs-target="#v-pills-nine" type="button" role="tab" aria-controls="v-pills-nine" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> What is a brand?
+                                    </button>
+                                    <button class="nav-link" id="v-pills-ten-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ten" type="button" role="tab" aria-controls="v-pills-ten" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Create a brand for your business
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    Create and manage a content calendar
+                                  </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-eleven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-eleven" type="button" role="tab" aria-controls="v-pills-eleven" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> The importance of a content calendar
+                                    </button>
+                                    <button class="nav-link" id="v-pills-twelve-tab" data-bs-toggle="pill" data-bs-target="#v-pills-twelve" type="button" role="tab" aria-controls="v-pills-twelve" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Create a content calendar for your business
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    Create authentic messages
+                                  </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <button class="nav-link" id="v-pills-thirteen-tab" data-bs-toggle="pill" data-bs-target="#v-pills-thirteen" type="button" role="tab" aria-controls="v-pills-thirteen" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Tips and tools for creating social media content
+                                    </button>
+                                    <button class="nav-link" id="v-pills-fourteen-tab" data-bs-toggle="pill" data-bs-target="#v-pills-fourteen" type="button" role="tab" aria-controls="v-pills-fourteen" aria-selected="true">
+                                        <i class="bi bi-arrow-right-circle-fill"></i> Plan your social media content
+                                    </button>
+                                  </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-7">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    <h1>Understand audiences</h1>
+                                    <hr>
+                                    <h3>This lesson will prepare you to:</h3>
+                                    <p>- Determine the audience that you want to reach.</p>
+                                    <p>- Understand why it's important to have a target audience for your business.</p>
+                                    <hr>
+                                    <h2>Meet Lucky Shrub</h2>
+                                    <img class="img-fluid" src="img/download.jpg" alt="">
+                                    <p>Lucky Shrub is a one-stop shop for garden design and maintenance. It has a nursery that offers local delivery, and a website that sells plants and gardening supplies. Karen, the owner, is eager to find more customers who are replanting home gardens. She also wants to make sure that she invests her marketing efforts and money wisely.</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-lg-8 align-self-center">
+                                            <h3>Why define a target audience?</h3>
+                                            <p>It's important for Lucky Shrub to reach the people most likely to become customers. Defining Lucky Shrub's target audience will help Karen do just that.</p>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <img class="img-fluid" src="img/people.png" alt="">
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <h3>What is a target audience?</h3>
+                                        <p>A target audience is the group of people you want to reach with your marketing message, because they may be likely to take action as a result of seeing it. <br> <br> People in your target audience will have certain characteristics in common. These characteristics fall into three broad categories:</p>
+                                        <div class="col-lg-4 d-flex justify-content-center">
+                                            <div class="card" style="width: 14rem;">
+                                                <img src="img/3asdfa.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Demographics:</h5>
+                                                  <p class="card-text">They may have the same:</p>
+                                                  <p>- Age</p>
+                                                  <p>- Gender</p>
+                                                  <p>- Household income</p>
+                                                  <p>- Occupation</p>
+                                                  <p>- Education</p>
+                                                  <p>- Location</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 d-flex justify-content-center">
+                                            <div class="card" style="width: 14rem;">
+                                                <img src="img/love.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Interests:</h5>
+                                                  <p class="card-text">They may share interests in certain products, topics or activities.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 d-flex justify-content-center">
+                                            <div class="card" style="width: 14rem;">
+                                                <img src="img/women.png" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Behaviours:</h5>
+                                                  <p class="card-text">They may read the same publications, visit the same online destinations, have certain hobbies or play the same sports.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    <h1>Create a target audience for your business</h1>
+                                    <hr>
+                                    <h3>This lesson will prepare you to:</h3>
+                                    <p>- Create a target audience for your business.</p>
+                                    <hr>
+                                    <h4>Build your target audience template</h4>
+                                    <p>A target audience can help you focus your marketing efforts on the people most likely to be interested in what your business has to offer. <br> <br> Here's a template that you can use to create a target audience for your business.</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-lg-7">
+                                            <img class="img-fluid" src="img/download.png" alt="">
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="row" style="border-left: 2px solid black;">
+                                                <h3>NEED</h3>
+                                                <p>What does your target audience need that your product or service provides?</p>
+                                            </div>
+                                            <div class="row">
+                                                <h3>DEMOGRAPHICS</h3>
+                                                <p>Describe your target audience by age, gender, household income, education or occupation, and location.</p>
+                                            </div>
+                                            <div class="row">
+                                                <h3>INTERESTS</h3>
+                                                <p>Describe what your prospective customers are typically interested in.</p>
+                                            </div>
+                                            <div class="row">
+                                                <h3>BEHAVIOURS</h3>
+                                                <p>Describe common behaviours among your target audience.</p>
+                                            </div>
+                                            <div class="row">
+                                                <h3>NAME AND IMAGE</h3>
+                                                <p>Give your target audience a name and even an image, if you choose. Marketers will often do this to remind them of what their target customer might look like.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <h3>How do you determine your target audience?</h3>
+                                        <p>Ideally, you would use customer research. For example, focus groups, online questionnaires, individual interviews with people who use certain products or in-home studies. <br> <br> If you don't have the resources to conduct this kind of research, follow these tips:</p>
+                                        <p>- Start with your current customers – specifically those that buy the products or services your marketing efforts are most focused on. Think about the characteristics they have in common, and brainstorm with your team to describe them.</p>
+                                        <p>- Monitor your competition. Get a sense of how they communicate and the groups of people they're trying to reach. You can also monitor the accounts of important brands in your space on social media.</p>
+                                        <p>- Talk to friends – or even strangers – you think may have an interest in your product.</p>
+                                    </div>
+                                    <hr>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab" tabindex="0">3</div>
+                        <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab" tabindex="0">4</div>
+                        <div class="tab-pane fade" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-five-tab" tabindex="0">5</div>
+                        <div class="tab-pane fade" id="v-pills-six" role="tabpanel" aria-labelledby="v-pills-six-tab" tabindex="0">6</div>
+                        <div class="tab-pane fade" id="v-pills-seven" role="tabpanel" aria-labelledby="v-pills-seven-tab" tabindex="0">7</div>
+                        <div class="tab-pane fade" id="v-pills-eight" role="tabpanel" aria-labelledby="v-pills-eight-tab" tabindex="0">8</div>
+                        <div class="tab-pane fade" id="v-pills-nine" role="tabpanel" aria-labelledby="v-pills-nine-tab" tabindex="0">9</div>
+                        <div class="tab-pane fade" id="v-pills-ten" role="tabpanel" aria-labelledby="v-pills-ten-tab" tabindex="0">10</div>
+                        <div class="tab-pane fade" id="v-pills-eleven" role="tabpanel" aria-labelledby="v-pills-eleven-tab" tabindex="0">11</div>
+                        <div class="tab-pane fade" id="v-pills-twelve" role="tabpanel" aria-labelledby="v-pills-five-tab" tabindex="0">12</div>
+                        <div class="tab-pane fade" id="v-pills-thirteen" role="tabpanel" aria-labelledby="v-pills-thirteen-tab" tabindex="0">13</div>
+                        <div class="tab-pane fade" id="v-pills-fourteen" role="tabpanel" aria-labelledby="v-pills-fourteen-tab" tabindex="0">14</div>
+                    </div>
+                </div>
+            </div>
+  
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
